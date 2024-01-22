@@ -12,13 +12,13 @@
 ##
 ## O _() ao redor da string a marca como elegível para tradução.
 
-define config.name = _("Acacia")
+define config.name = _("Acacia: O prólogo do desespero")
 
 
 ## Determina se o título fornecido acima será mostrado na tela do menu
 ## principal. Defina como False para ocultar o título.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## A versão do jogo.
@@ -30,6 +30,8 @@ define config.version = "1.0"
 ## triplas e deixe uma linha em branco entre os parágrafos.
 
 define gui.about = _p("""
+                      Criado por Sulivan.\n
+                      Patrocinado por Jogatinando LTDA.
 """)
 
 
