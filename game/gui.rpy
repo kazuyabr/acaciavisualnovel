@@ -27,7 +27,7 @@ define config.check_conflicting_properties = True
 
 ## Uma cor de destaque usada em toda a interface para rotular e destacar o
 ## texto.
-define gui.accent_color = '#9933ff'
+define gui.accent_color = '#FFC933'
 
 ## A cor usada para um botão de texto quando ele não está selecionado nem passa
 ## o mouse.

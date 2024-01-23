@@ -18,7 +18,7 @@ define config.name = _("Acacia: O prólogo do desespero")
 ## Determina se o título fornecido acima será mostrado na tela do menu
 ## principal. Defina como False para ocultar o título.
 
-define gui.show_name = False
+define gui.show_name = True
 
 
 ## A versão do jogo.
