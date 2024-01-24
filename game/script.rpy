@@ -3,7 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+define p = Character("Pesquisador")
+
+image bg submarino = "images/bg submarino.png"
 
 
 # The game starts here.
@@ -14,19 +16,20 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg submarino:
+        zoom 2.1
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show eileen happy
+    # show eileen happy
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    p "Você esta criando um novo Ren'Py game."
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    p "Uma vez que você adicionou conteúdos aqui, sejam eles musicas, imagens de fundo, imagens de personagens, vc esta começando a criar seu roteiro!"
 
     # This ends the game.
 
