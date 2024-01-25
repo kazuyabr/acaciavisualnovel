@@ -30,7 +30,16 @@ label start:
     p "Você esta criando um novo Ren'Py game."
 
     p "Uma vez que você adicionou conteúdos aqui, sejam eles musicas, imagens de fundo, imagens de personagens, vc esta começando a criar seu roteiro!"
+    
+    menu:
 
+        "Repetir.":
+            jump start
+
+        "Encerrar o jogo":
+            jump end
+        
     # This ends the game.
 
+label end:
     return
