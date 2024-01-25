@@ -164,4 +164,5 @@ cython_debug/
 game/cache/*.txt
 game/cache/*.rpyb
 game/saves/*.save
+game/saves/*.json
 game/saves/persistent
