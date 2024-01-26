@@ -121,6 +121,9 @@ define config.window_hide_transition = Dissolve(.2)
 
 ## Padrões de preferência ######################################################
 
+## Inicia o jogo em tela cheia
+default preferences.fullscreen = True
+
 ## Controla a velocidade padrão do texto. O padrão, 0, é infinito, enquanto
 ## qualquer outro número é o número de caracteres por segundo a serem digitados.
 
