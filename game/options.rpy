@@ -12,13 +12,13 @@
 ##
 ## O _() ao redor da string a marca como elegível para tradução.
 
-define config.name = _("Acacia: O prólogo do desespero")
+define config.name = _("Acacia")
 
 
 ## Determina se o título fornecido acima será mostrado na tela do menu
 ## principal. Defina como False para ocultar o título.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## A versão do jogo.
@@ -192,7 +192,7 @@ init python:
     build.classify('**/thumbs.db', None)
 
     ## Para arquivar arquivos, classifique-os como "arquivo".
-
+    build.classify('game/**', 'archive') #Esta linha criptografa todos os arquivos da pasta game para um archive.rpa
     # build.classify('game/**.png', 'archive')
     # build.classify('game/**.jpg', 'archive')
 

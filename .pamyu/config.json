@@ -1,0 +1,42 @@
+{
+  "Settings": {
+    "locale": "pt",
+    "theme": {
+      "color": "#7D5FFF"
+    },
+    "renpyPath": "D:\\Desenvolvimento de Games\\Ren'py\\Engine\\renpy-8.1.3-sdk"
+  },
+  "Pamyu": {
+    "version": "0.0.9"
+  },
+  "CharactersData": {
+    "characters": [],
+    "folders": {}
+  },
+  "Game": {
+    "name": "Acacia: O prólogo do desespero",
+    "showName": true,
+    "version": "1.0",
+    "about": "Criado por Sulivan.\\n\nPatrocinado por Jogatinando LTDA.",
+    "buildName": "Acacia",
+    "hasSound": true,
+    "hasMusic": true,
+    "hasVoice": true,
+    "transitionEnter": "dissolve",
+    "transitionExit": "dissolve",
+    "transitionIntra": "dissolve",
+    "transitionAfterLoad": null,
+    "transitionEndGame": null,
+    "transitionWindowShow": "Dissolve(.2)",
+    "transitionWindowHide": "Dissolve(.2)",
+    "window": "auto",
+    "cps": 0,
+    "afm": 15,
+    "saveDirectory": "Acacia-1705859743",
+    "windowIcon": "gui/window_icon.png"
+  },
+  "ScenesData": {
+    "scenes": [],
+    "actions": []
+  }
+}

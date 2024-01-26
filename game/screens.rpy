@@ -388,8 +388,8 @@ style main_menu_frame:
     background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
-    xalign 1.0
-    xoffset -25
+    xalign 0.0
+    xoffset 0
     xmaximum 1020
     yalign 0.0
     yoffset 0

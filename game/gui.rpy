@@ -68,7 +68,7 @@ define gui.text_font = "DejaVuSans.ttf"
 define gui.name_text_font = "DejaVuSans.ttf"
 
 ## A fonte usada para o texto fora do jogo.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "BrazierFlame.ttf"
 
 ## O tamanho do texto normal do diálogo.
 define gui.text_size = 22
@@ -179,7 +179,7 @@ define gui.button_text_insensitive_color = gui.insensitive_color
 
 ## O alinhamento horizontal do texto do botão. (0,0 é à esquerda, 0,5 é ao
 ## centro, 1,0 é à direita).
-define gui.button_text_xalign = 0.0
+define gui.button_text_xalign = 1.0
 
 
 ## Essas variáveis substituem as configurações de diferentes tipos de botões.
@@ -257,7 +257,7 @@ define gui.file_slot_rows = 2
 
 ## A posição do lado esquerdo dos botões de navegação, em relação ao lado
 ## esquerdo da tela.
-define gui.navigation_xpos = 40
+define gui.navigation_xpos = 120
 
 ## A posição vertical do indicador de salto.
 define gui.skip_ypos = 10
@@ -284,7 +284,7 @@ define gui.page_spacing = 0
 define gui.slot_spacing = 10
 
 ## A posição do texto do menu principal.
-define gui.main_menu_text_xalign = 1.0
+define gui.main_menu_text_xalign = 0.0
 
 
 ## Quadros #####################################################################
