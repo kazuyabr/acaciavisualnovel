@@ -257,7 +257,7 @@ define gui.file_slot_rows = 2
 
 ## A posição do lado esquerdo dos botões de navegação, em relação ao lado
 ## esquerdo da tela.
-define gui.navigation_xpos = 120
+define gui.navigation_xpos = 110
 
 ## A posição vertical do indicador de salto.
 define gui.skip_ypos = 10
